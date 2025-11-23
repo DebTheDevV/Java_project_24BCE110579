@@ -2,7 +2,7 @@ package src;
 import java.sql.*;
 
 public class dbConnect {
-    private static Connection mycon=null;
+    
 
     public Connection getConnection() throws ClassNotFoundException, SQLException {
         String db="studata", user = "root", pass = "1236";
